@@ -11,7 +11,7 @@
 
 
 /* ------------------------------------------ */
-.website-amazon {
+/* .website-amazon {
     padding: 50px 0;
 }
 
@@ -25,11 +25,11 @@
 .amazon img {
     width: 100%;
     margin: 20px 0;
-}
+} */
 
 /* ----------------------------------------------- */
 /* baking */
-.baking{
+/* .baking{
     padding: 100px 0;
 }
 
@@ -57,4 +57,28 @@
     color: rgb(40, 38, 38);
     font-style: italic;
 }
+ */
+.services {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #eee;
+}
 
+.services .item {
+    margin-top: 40px;
+    width: 30%;
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    text-align: left;
+}
+
+.services .item hr {
+    margin: 5px 0 10px 0;
+}
+
+.services .item p {
+    padding-right: 40px;
+}
