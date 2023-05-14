@@ -1,5 +1,3 @@
-/* * => 'all elements' */
-/* general css  */
 * {
     margin: 0;
 }
@@ -9,76 +7,59 @@
     margin: auto;
 }
 
+section {
+    padding: 70px 0;
+}
+
+.clear {
+    clear: both;
+}
 
 /* ------------------------------------------ */
-/* .website-amazon {
-    padding: 50px 0;
+h1 {
+    margin-bottom: 40px;
+    text-decoration: underline;
 }
 
-.amazon {
-    width: 22%;
-    display: inline-block;
-    border: 2px solid silver;
-    padding: 20px 15px;
-}
-
-.amazon img {
-    width: 100%;
+.hover-section a,
+.hover-section button {
+    display: block;
+    width: fit-content;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
     margin: 20px 0;
-} */
+}
 
-/* ----------------------------------------------- */
-/* baking */
-/* .baking{
-    padding: 100px 0;
+.hover-section a,
+.hover-section button {
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+}
+
+.hover-section a:hover,
+.hover-section button:hover {
+    background-color: white;
+    color: blueviolet;
 }
 
 
-.baking h2,
-.baking p
-{
-    text-align: center;
-}
-
-.baking .item{
-    width: 32%;
-    display: inline-block;
-    margin-top: 20px;
-    text-align: center;
-}
-
-.baking .item img{
-    width: 90%;
-    margin-bottom: 10px;
-}
-
-.baking .item p{
-    padding: 5px 10px;
-    color: rgb(40, 38, 38);
-    font-style: italic;
-}
- */
-.services {
-    text-align: center;
+/* ------------------------------------- */
+.amazon-section {
     padding: 50px 0;
     background-color: #eee;
 }
 
-.services .item {
-    margin-top: 40px;
-    width: 30%;
-    display: inline-block;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
+.amazon {
     background-color: white;
-    text-align: left;
+    width: 23%;
+    padding: 10px;
+    /* display: inline-block; */
+    float: left;
 }
 
-.services .item hr {
-    margin: 5px 0 10px 0;
-}
-
-.services .item p {
-    padding-right: 40px;
+.amazon img {
+    width: 100%;
 }
